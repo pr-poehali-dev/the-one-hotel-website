@@ -12,9 +12,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-pearl font-lato">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-charcoal/95 backdrop-blur-sm z-50">
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+      <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-charcoal/95 backdrop-blur-sm z-50 rounded-full px-8 py-3">
+          <div className="flex items-center justify-between w-full">
             <h1 className="text-2xl font-playfair font-bold text-gold">THE ONE</h1>
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-pearl hover:text-gold transition-colors">Главная</a>
@@ -28,7 +27,6 @@ const Index = () => {
               Войти
             </Button>
           </div>
-        </div>
       </nav>
 
       {/* Hero Section */}
